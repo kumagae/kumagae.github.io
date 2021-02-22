@@ -1,5 +1,37 @@
+* {
+  font-family: system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji';
+}
 body {
+  margin: 1rem;
   color: #fff;
   background-color: #333;
   text-align: center;
+}
+::-moz-selection {
+  background: #666;
+}
+::selection {
+  background: #666;
+}
+h1 {
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+}
+
+button {
+  width: 3rem;
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #fff;
+  color: #333;
+}
+button:focus {
+  outline: none;
+  border-color: #fff;
 }
